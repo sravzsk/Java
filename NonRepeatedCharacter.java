@@ -21,8 +21,8 @@ public class NonRepeatedCharacter {
 		
 		for(Entry<Character,Integer> entry:hasMap.entrySet()) {
 			if(entry.getValue()==1){
-					System.out.println("nonRepeatedCharacter value->"+entry.getKey());
-				System.out.println("nonRepeatedCharacter value->"+entry.getKey());
+					System.out.println("First nonRepeatedCharacter value->"+entry.getKey());
+				
 					return;
 			}
 		}
